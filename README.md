@@ -1,6 +1,6 @@
 # The Royal Shepherds – CAC Website
 
-A modern, responsive, full-featured website for **The Royal Shepherds**, the official Christian Paramilitary Youth Organization of Christ Apostolic Church (CAC).
+A modern, responsive, full-featured website for The Royal Shepherds, the official Christian Paramilitary Youth Organization of Christ Apostolic Church Nig. & Overseas (CAC).
 
 ## Key Technologies
 
