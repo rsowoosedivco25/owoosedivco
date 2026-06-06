@@ -59,9 +59,9 @@ function AboutPage() {
               </h2>
               <div className="section-divider mb-6"></div>
               <p className="mb-4 leading-relaxed" style={{color:'#4B5563', fontFamily:'Poppins'}}>
-                The Royal Shepherds is the official Christian Paramilitary Youth Organization of the Christ Apostolic Church (CAC),
-                one of Africa's largest and most influential Pentecostal denominations. Founded to channel the energy and potential
-                of young people into productive Christian service, the organization blends military discipline with deep spiritual formation.
+                It is a universally accepted truism that many youths usually prefer to associate with various youth clubs which offer different appeals such as uniform wearing and which is regimental or paramilitary in nature. Such uniformed groups provide added advantages of instant recognition, authority and respect in the society. This explains why many of our church youths usually register as members of NGO’s such as Boys’ Brigade, Girls’ Brigade Scouts, Girl Guides, Red Cross, Man O’ War, WAI Brigade etc. And this also explains why many other Christian churches in Nigeria have established or integrated various types of disciplined, uniformed, regimental or para-military voluntary youth movements into their congregations. 
+Following this enviable pattern, the Christ Apostolic church, at the meeting of the General Executives Council, held at Ikeji –Arakeji Camp on Wednesday 10th May, 2002, unanimously resolved to establish a distinct voluntary uniformed youth wing for this church immediately, following the CAC President’s initiative.
+Also reference to the Nigeria constitution on the formation and inauguration of youth chapters at various levels , the authority of CAC in compliance with the Act of parliament of 25th August, 1964 and as amended through the National Youth Policy of 2001, decided to form this organization. Having noticed some flaws or lacuna in the 1st Edition of the POR which gave room for the 2nd Edition which is for the use of officers and men of this noble organization.
               </p>
               <p className="mb-4 leading-relaxed" style={{color:'#4B5563', fontFamily:'Poppins'}}>
                 We are a movement of young men and women who have answered the call to be disciplined ambassadors of Christ—
