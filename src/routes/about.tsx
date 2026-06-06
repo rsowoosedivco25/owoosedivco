@@ -5,7 +5,7 @@ export const Route = createFileRoute('/about')({
 })
 
 const timeline = [
-  { year: '1940s', title: 'Foundation', desc: 'The Royal Shepherds was founded within the Christ Apostolic Church as a paramilitary youth organization to instill Christian discipline and leadership.' },
+  { year: '10th May, 2002', title: 'Foundation', desc: 'The Royal Shepherds was founded within the Christ Apostolic Church as a paramilitary youth organization to instill Christian discipline and leadership.' },
   { year: '1960s', title: 'National Spread', desc: 'The organization expanded rapidly across Nigeria, establishing state commands and divisional councils in major cities.' },
   { year: '1980s', title: 'Formalization', desc: 'The Royal Shepherds Constitution was formalized, establishing ranks, structures, and operational procedures.' },
   { year: '2000s', title: 'Digital Era', desc: 'Introduction of modern training methods, digital records management, and expanded community service programmes.' },
@@ -37,7 +37,7 @@ function AboutPage() {
           </h1>
           <div className="section-divider mx-auto mb-6"></div>
           <p className="max-w-3xl mx-auto text-base" style={{color:'rgba(255,255,255,0.7)', fontFamily:'Poppins'}}>
-            Learn about the history, mission, vision, and values of The Royal Shepherds —
+            Learn about the history, vision, mission, and values of The Royal Shepherds —
             a Christian paramilitary youth organization shaping leaders for Christ and society.
           </p>
           <div className="flex justify-center gap-2 mt-6 text-xs" style={{color:'rgba(255,255,255,0.4)', fontFamily:'Montserrat'}}>
@@ -55,7 +55,7 @@ function AboutPage() {
             <div>
               <div className="badge-gold inline-block mb-4">Our Identity</div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{color:'#0B1F3A', fontFamily:'Playfair Display'}}>
-                The Royal Shepherds of Christ Apostolic Church
+                The Royal Shepherds of Christ Apostolic Church Nig. & Overseas
               </h2>
               <div className="section-divider mb-6"></div>
               <p className="mb-4 leading-relaxed" style={{color:'#4B5563', fontFamily:'Poppins'}}>
@@ -75,12 +75,12 @@ Also reference to the Nigeria constitution on the formation and inauguration of 
             <div>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { label:'Founded', value:'1940s', icon:'📅' },
-                  { label:'National Body', value:'CAC Nigeria', icon:'🏛️' },
+                  { label:'Founded', value:'10th May, 2002', icon:'📅' },
+                  { label:'National Body', value:'CAC Missionary Headquarters, General Secretariat, Basorun, P.O box 530, Ibadan, Oyo State.', icon:'🏛️' },
                   { label:'Motto', value:'One Fold, One Shepherd', icon:'✝️' },
-                  { label:'Focus', value:'Youth 16–35 years', icon:'👥' },
+                  { label:'Focus', value:'Youth 3 years and above', icon:'👥' },
                   { label:'Presence', value:'All 36 States', icon:'🗺️' },
-                  { label:'Affiliation', value:'International CAC', icon:'🌍' },
+                  { label:'Affiliation', value:'National Youth', icon:'🌍' },
                 ].map((item, i) => (
                   <div key={i} className="rounded-xl p-5 text-center card-hover"
                     style={{background:'#F5F3EE', border:'1px solid #E5E7EB'}}>
@@ -95,17 +95,29 @@ Also reference to the Nigeria constitution on the formation and inauguration of 
         </div>
       </section>
 
-      {/* MISSION & VISION */}
+      {/* VISION & MISSION */}
       <section className="py-20" style={{background:'#0B1F3A'}}>
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8">
+            <div className="rounded-2xl p-10" style={{background:'rgba(139,0,0,0.1)', border:'1px solid rgba(139,0,0,0.3)'}}>
+              <div className="text-4xl mb-4">🔭</div>
+              <h3 className="text-2xl font-bold mb-4" style={{color:'white', fontFamily:'Playfair Display'}}>Our Vision</h3>
+              <p className="leading-relaxed" style={{color:'rgba(255,255,255,0.75)', fontFamily:'Poppins'}}>
+                The primary aim of this youth movement is character development; to make people “Born again” be disciples of Christ and good citizen.
+              </p>
+            </div>
             <div className="rounded-2xl p-10" style={{background:'rgba(212,175,55,0.08)', border:'1px solid rgba(212,175,55,0.3)'}}>
               <div className="text-4xl mb-4">🎯</div>
               <h3 className="text-2xl font-bold mb-4" style={{color:'#D4AF37', fontFamily:'Playfair Display'}}>Our Mission</h3>
               <p className="leading-relaxed" style={{color:'rgba(255,255,255,0.75)', fontFamily:'Poppins'}}>
-                To raise disciplined, spirit-filled Christian youth who are equipped to impact their communities through
-                evangelism, discipleship, leadership development, and selfless community service — all under the
-                lordship of Jesus Christ and the banner of the Christ Apostolic Church.
+                This vision shall be achieved by: 
+i.	Teaching members the need for a sound knowledge of the word of God 
+ii.	Making members lead truly prayerful lives that are totally committed to private, regular, incessant daily prayers 
+iii.	Inculcating in every member the need to receive, possess and maintain the Holy spirit of God, including the spiritual gifts, fruit and power, as enjoyed by the early Christians 
+iv.	Encouraging members towards steadfast love, honest, chastity deeply spiritual and holy lives and worthy ambassadors of Jesus Christ at all times 
+v.	Training members in the principle and method of soul winning and evangelism and then making them go and covert all unbelievers by all peaceful and persuasive means as Christ’s witnesses always 
+vi.	Encouraging members towards good citizenship self –reliance, resourcefulness, obedience, loyalty, mental alertness, and thoughtfulness for others 
+vii.	Promoting their physical development, training them in services useful to the public, handicrafts and professional skills useful to themselves
               </p>
             </div>
             <div className="rounded-2xl p-10" style={{background:'rgba(139,0,0,0.1)', border:'1px solid rgba(139,0,0,0.3)'}}>
